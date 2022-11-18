@@ -13,14 +13,6 @@
   inputs.src-kdl-devel.repo  = "kdl-nim";
   inputs.src-kdl-devel.type  = "github";
   
-  inputs."github.com/beef331/recyclable".owner = "nim-nix-pkgs";
-  inputs."github.com/beef331/recyclable".ref   = "master";
-  inputs."github.com/beef331/recyclable".repo  = "github.com/beef331/recyclable";
-  inputs."github.com/beef331/recyclable".dir   = "";
-  inputs."github.com/beef331/recyclable".type  = "github";
-  inputs."github.com/beef331/recyclable".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/beef331/recyclable".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
