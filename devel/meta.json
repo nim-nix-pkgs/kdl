@@ -1,0 +1,31 @@
+{
+  "name": "kdl",
+  "version": "1.0.0",
+  "author": "Patitotective",
+  "desc": "KDL document language Nim implementation",
+  "license": "MIT",
+  "skipDirs": [],
+  "skipFiles": [
+    "src/kdl/query.nim",
+    "src/kdl/schema.nim"
+  ],
+  "skipExt": [],
+  "installDirs": [],
+  "installFiles": [],
+  "installExt": [],
+  "requires": [
+    {
+      "name": "nim",
+      "str": ">= 1.6.8",
+      "ver": {
+        "kind": "verEqLater",
+        "ver": "1.6.8"
+      }
+    }
+  ],
+  "bin": [],
+  "binDir": "",
+  "srcDir": "src",
+  "backend": "c",
+  "ref": "refs/heads/devel"
+}
