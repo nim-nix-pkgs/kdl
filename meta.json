@@ -78,7 +78,10 @@
       "desc": "KDL document language Nim implementation",
       "license": "MIT",
       "skipDirs": [],
-      "skipFiles": [],
+      "skipFiles": [
+        "src/kdl/query.nim",
+        "src/kdl/schema.nim"
+      ],
       "skipExt": [],
       "installDirs": [],
       "installFiles": [],
