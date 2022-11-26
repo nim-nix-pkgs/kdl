@@ -204,22 +204,22 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs_2",
-        "src-kdl-main": "src-kdl-main"
+        "src-kdl-devel": "src-kdl-devel"
       }
     },
-    "src-kdl-main": {
+    "src-kdl-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1665671999,
-        "narHash": "sha256-sN3IYk0Hhj9jn6wxc7XbxwI3gxm4+VMGhzoksUvPDqY=",
+        "lastModified": 1669329473,
+        "narHash": "sha256-LRx4KsSjhOETgh7u398AiXxrUDiwy1A2OhfdibcgQFs=",
         "owner": "Patitotective",
         "repo": "kdl-nim",
-        "rev": "0c41b400606f2cfa4656d565a65a957086173568",
+        "rev": "b05fe2ec4476c04955c8687a41abb746eebf31fd",
         "type": "github"
       },
       "original": {
         "owner": "Patitotective",
-        "ref": "refs/heads/main",
+        "ref": "refs/heads/devel",
         "repo": "kdl-nim",
         "type": "github"
       }
